@@ -1,3 +1,5 @@
 ﻿  Snake.cpp
 C:\Users\User\Desktop\Snake\Snake\Snake\Snake.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\User\Desktop\Snake\Snake\Snake\Snake.cpp(28,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\Desktop\Snake\Snake\Snake\Snake.cpp(169,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Snake.vcxproj -> C:\Users\User\Desktop\Snake\Snake\Debug\Snake.exe

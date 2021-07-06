@@ -25,6 +25,7 @@ void Setup()
 	//dir = STOP;
 	x = w / 2 - 1 ; //Starting position
 	y = h / 2 - 1 ;
+	srand(time(NULL));
 	FruitX = rand() % w;
 	FruitY = rand() % h;
 	score = 0;
@@ -165,6 +166,7 @@ void Logic()
 	if (x == FruitX && y == FruitY)
 	{
 		score += 1;
+		srand(time(NULL));
 	FruitX = rand() % w;
 	FruitY = rand() % h;
 	CTail += 1;

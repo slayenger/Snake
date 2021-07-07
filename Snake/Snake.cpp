@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <conio.h>м
+#include <conio.h>
 #include <Windows.h>
 using namespace std;
 bool GameOver;
@@ -26,8 +26,8 @@ void Setup()
 	x = w / 2 - 1 ; //Starting position
 	y = h / 2 - 1 ;
 	srand(time(NULL));
-	FruitX = rand() % w;
-	FruitY = rand() % h;
+	FruitX = rand() % (w-1) ;
+	FruitY = rand() % (h-1);
 	score = 0;
 }
 //drawing map, snake etc.
@@ -167,8 +167,8 @@ void Logic()
 	{
 		score += 1;
 		srand(time(NULL));
-	FruitX = rand() % w;
-	FruitY = rand() % h;
+	FruitX = rand() % (w-1);
+	FruitY = rand() % (h-1);
 	CTail += 1;
 
 	}
